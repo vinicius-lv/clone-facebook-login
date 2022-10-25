@@ -5,10 +5,15 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: #F0F2F5;
+}
+
 .main {
     padding-bottom: 112px;
     padding-top: 72px;
     height: 100vh;
+    width: 100%;
     background-color: #F0F2F5;
 }
 
@@ -19,16 +24,22 @@
     align-items: center;
     height: 80vh;
     width: 980px;
+    background-color: #F0F2F5;
 }
 
 .main__banner {
-    width: 500px;
     flex: 2;
     margin-bottom: 39px;
+    background-color: #F0F2F5;
+}
+
+.main__banner__items {
+    width: 500px;
 }
 
 .main__form {
     flex: 1;
+    background-color: #F0F2F5;
 }
 
 .main__login {
@@ -61,6 +72,10 @@
 
 .main__login__input:focus::placeholder {
     color: #90949ca8;
+}
+
+.main__login__input:defined {
+    font-size: 17px;
 }
 
 .main__login__submit {
@@ -127,7 +142,7 @@
 }
 
 .footer {
-    margin-top: 20px;
+    background-color: #FFF;
 }
 
 .footer__container {
